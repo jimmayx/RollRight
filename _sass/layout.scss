@@ -357,10 +357,13 @@ footer {
 	h2 {
 		text-align: left;
 	}
+	border-bottom: solid black 1px;
+	border-top: solid black 1px;
 }
 
 .darker {
 	background: #f8fafb;
 	padding: 60px 0;
-	border: solid black 1px;
+	border-bottom: solid black 1px;
+	border-top: solid black 1px;
 }
