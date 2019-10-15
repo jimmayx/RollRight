@@ -1,13 +1,13 @@
 # ----
 # Site
 
-title: Cause Template
-url: https://clean-oryx.cloudvent.net
+title: Roll Right Fabrication Manufactoring Electrical
+url:
 baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /images/RRLogo.jpg
+logo: images/RRLogo.jpg
 description: Jekyll template with example content for a not-for-profit organisation.
 author:
   name:
