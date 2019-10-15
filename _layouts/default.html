@@ -4,8 +4,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		{% seo %}
-
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/RRLogo.png" sizes="32x32">
@@ -48,29 +46,11 @@
 					<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
 						{% include icons/social-media.html social_icon="facebook" %}
 					</a>
-					<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
-						{% include icons/social-media.html social_icon="twitter" %}
-					</a>
-					<a class="youtube" href="https://youtube.com/{{ site.data.company.youtube }}">
-						{% include icons/social-media.html social_icon="youtube" %}
-					</a>
-				</div>
 			</div>
 		</footer>
 		<p class="copyright">
-			<a href="https://cloudcannon.com/">
-				Template by CloudCannon
+				Built by Josh Sim
 			</a>
 		</p>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script type="text/javascript">
-			$('a[href*=\\#]').on('click', function(event){
-				var el = $(this.hash);
-				if (el.length > 0) {
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-				}
-			});
-		</script>
 	</body>
 </html>
