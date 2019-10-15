@@ -5,14 +5,16 @@
 	position: relative;
 	padding: 50px 30px;
 	box-sizing: border-box;
-	border-bottom: solid black 1px;
-	border-top: solid black 1px;
 }
 nav
 {
 background-color: #585858;
 }
-
+.lines
+{
+	border-bottom: solid black 1px;
+	border-top: solid black 1px;
+}
 header {
 	padding-bottom: 50px;
 
