@@ -7,7 +7,7 @@ baseurl:
 google_analytics_key:
 
 description: Jekyll template with example content for a not-for-profit organisation.
-author: - Jim
+author:
   name: Josh Sim
   email: josh_sim@hotmail.com
   twitter: Jimmayx
@@ -49,6 +49,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+
 plugins:
   - jekyll-sitemap
 
@@ -57,7 +58,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
-
 
 _options:
   header_background_image:
