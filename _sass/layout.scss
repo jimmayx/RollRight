@@ -5,6 +5,8 @@
 	position: relative;
 	padding: 50px 30px;
 	box-sizing: border-box;
+	border-bottom: solid black 1px;
+	border-top: solid black 1px;
 }
 nav
 {
@@ -357,8 +359,7 @@ footer {
 	h2 {
 		text-align: left;
 	}
-	border-bottom: solid black 1px;
-	border-top: solid black 1px;
+	
 }
 
 .darker {
