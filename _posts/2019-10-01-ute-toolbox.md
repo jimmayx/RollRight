@@ -1,5 +1,5 @@
 ---
-title: Custom ute toolbox
+title: Custom Ute Toolbox
 date: 2019-10-01
 featured-image: images/toolbox.jpg
 ---

@@ -1,5 +1,5 @@
 ---
-title: First update on the drift car
+title: First Update On The Drift Car
 date: 2019-09-30
 featured-image:  images/arronDriftCar.jpg
 ---
